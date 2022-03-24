@@ -25,7 +25,7 @@ function representation = melodyBuildRepresentation(midiFile)
 %   jth feature derived from ith note of midiFile. Set the values between
 %   the command "for i = 2:n_note-1" and the command "end"
     for i = 2:n_note-1
-        if midifile()
+        
         representation(i, 1) = midifile(1,4)
         
     end
